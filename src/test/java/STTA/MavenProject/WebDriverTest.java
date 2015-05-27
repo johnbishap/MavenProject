@@ -15,7 +15,7 @@ public class WebDriverTest {
   public void googleSearch() throws InterruptedException {
    driver = new FirefoxDriver();
    
-   driver.get("https://www.google.co.in");
+   driver.get("https://www.google.com");
    
  //Get and print page title before search.
    pagetitle = driver.getTitle();
