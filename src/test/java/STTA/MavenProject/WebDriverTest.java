@@ -11,13 +11,14 @@ import org.testng.annotations.Test;
 public class WebDriverTest {
  WebDriver driver;
  String pagetitle;
+ 
   @Test
   public void googleSearch() throws InterruptedException {
    driver = new FirefoxDriver();
    
-   driver.get("https://www.google.com");
+   driver.get("https://www.google.co.in");
    
- //Get and print page title before search.
+   //Get and print page title before search.
    pagetitle = driver.getTitle();
    System.out.println("Page title before search : "+pagetitle);
    
@@ -37,7 +38,7 @@ public class WebDriverTest {
    for(WebElement eachResult : allSearchResults) {
    System.out.println("Title : "+eachResult.getText()+", Link : "+eachResult.getAttribute("href"));
    
- //  driver.quit();
+   //  driver.quit();
    
   }
 }
