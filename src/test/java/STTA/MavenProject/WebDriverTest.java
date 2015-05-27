@@ -23,7 +23,7 @@ public class WebDriverTest {
    
    //Search with Hello World on google.
    WebElement Searchbox = driver.findElement(By.xpath("//input[@name='q']"));
-   Searchbox.sendKeys("Devendra");
+   Searchbox.sendKeys("selenium");
    Searchbox.submit();
    Thread.sleep(5000);
    //Get and print page title after search.

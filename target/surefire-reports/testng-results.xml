@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="STTA.MavenProject.WebDriverTest" duration-ms="19984" started-at="2015-05-14T08:33:42Z" finished-at="2015-05-14T08:34:02Z">
+  <suite name="STTA.MavenProject.WebDriverTest" duration-ms="31944" started-at="2015-05-26T13:29:20Z" finished-at="2015-05-26T13:29:51Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="19984" started-at="2015-05-14T08:33:42Z" finished-at="2015-05-14T08:34:02Z">
+    <test name="Command line test" duration-ms="31944" started-at="2015-05-26T13:29:20Z" finished-at="2015-05-26T13:29:51Z">
       <class name="STTA.MavenProject.WebDriverTest">
-        <test-method status="PASS" signature="googleSearch()[pri:0, instance:STTA.MavenProject.WebDriverTest@1a407d53]" name="googleSearch" duration-ms="19964" started-at="2015-05-14T14:03:42Z" finished-at="2015-05-14T14:04:02Z">
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:STTA.MavenProject.WebDriverTest@1a407d53]" name="googleSearch" duration-ms="31929" started-at="2015-05-26T18:59:20Z" finished-at="2015-05-26T18:59:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleSearch -->
